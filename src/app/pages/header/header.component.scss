@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #3a506b; /* Changement de la couleur de fond */
+  height: 80px; /* Augmentation de la hauteur du header */
+
+  /* Ajout d'une marge inférieure pour faire descendre le texte */
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 28px; /* Augmentation de la taille de police */
+  font-weight: bold;
+  color: #ffffff; /* Changement de la couleur du texte en blanc */
+  margin-right: auto;
+
+  /* Ajout d'une marge supérieure pour faire descendre le texte */
+  margin-top: 15px;
+}
+
+.dashboard-btn {
+  background-color: #00adb5; /* Changement de la couleur du bouton */
+  color: #ffffff; /* Changement de la couleur du texte en blanc */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #0496a7; /* Changement de la couleur au survol */
+  }
+}
